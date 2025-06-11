@@ -4,7 +4,7 @@ This project performs a complete analysis of breast cancer biopsy data using Pri
 
 ## 📊 Dataset
 
-The dataset used is the `brca` dataset from the `dslabs` package. It contains numeric predictors derived from biopsy images of breast tissue and a corresponding label for each sample indicating whether the tumor is **benign (B)** or **malignant (M)**.
+The data come from the `load_breast_cancer` dataset in scikit-learn. It provides numeric features extracted from digitized biopsy images. In `data/load_data.py` the original targets (0 = malignant, 1 = benign) are mapped to **M** and **B** for consistency throughout the project.
 
 ## 🧳 Main Steps
 
