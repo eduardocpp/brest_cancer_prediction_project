@@ -30,6 +30,9 @@ def train_mlp(X_train, y_train, size_options=[10, 30, 50], max_layers=3, cv=5, a
         except:
             # Ignora modelos que não convergiram ou geraram erro
             continue
+    
+    if best_model is None:
+        raise RuntimeError("No valid MLP configurations converged")
 
     best_model.fit(X_train, y_train)
     return best_model, best_config, best_score
