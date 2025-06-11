@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ## 📅 Author
 
-Developed by **Eduardo Ribeiro**.
+Developed by **Eduardo Rios**.
 
 * 🌐 [LinkedIn](https://www.linkedin.com/in/eduardoribeirodata)
 * 📸 [Instagram](https://www.instagram.com/eduardo.ribeiro.ai)
